@@ -1,37 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #000000;
     color: #fff;
 }
 
-header{
+header {
     background-color: #222222;
 }
 
-.nav-and-hero-container{
+.nav-and-hero-container {
     width: 70%;
     margin: 0 auto;
 }
 
-.navBar-data-container{
+.navBar-data-container {
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
 }
 
-.navLogoText{
+.navLogoText {
     font-size: 36px;
     color: #E6533C;
     font-style: italic;
     font-weight: 700;
 }
 
-.navBar-data-container  nav  ul {
+.navBar-data-container nav ul {
     display: flex;
     gap: 20px;
     border: 1px solid gray;
@@ -39,50 +39,50 @@ header{
     border-radius: 50px;
 }
 
-.navBar-data-container  nav  ul li {
+.navBar-data-container nav ul li {
     list-style: none;
 }
 
-.navBar-data-container  nav  ul li a{
+.navBar-data-container nav ul li a {
     list-style: none;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
 }
 
-#navBar-home-text{
+#navBar-home-text {
     background-color: #E6533C;
     padding: 9px 25px;
     border-radius: 40px;
 }
 
 /* hero section start */
-.hero-container{
+.hero-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 35px;
 }
 
-.hero-title-text{
+.hero-title-text {
     font-size: 78px;
 }
 
-.hero-title-shape-text{
+.hero-title-shape-text {
     font-style: italic;
 }
 
-.hero-sub-title-text{
+.hero-sub-title-text {
     color: #bab3b3;
     margin: 28px 0;
 }
 
-.hero-btn-container{
+.hero-btn-container {
     display: flex;
     gap: 16px;
 }
 
-.hero-btn{
+.hero-btn {
     padding: 10px 20px;
     font-size: 18px;
     color: #fff;
@@ -90,67 +90,108 @@ header{
     border: none;
 }
 
-#hero-btn1{
+#hero-btn1 {
     background-color: #E6533C;
 }
 
-#hero-btn2{
+#hero-btn2 {
     border: 1.7px solid #fff;
     background: transparent;
 }
 
-.image-workout-and-video-tutorial-container{
+.image-workout-and-video-tutorial-container {
     position: relative;
 }
 
 
-.free-workout-videos-container{
+.free-workout-videos-container {
     width: 250px;
     background-color: #393939;
-    padding:23px;
+    padding: 23px;
     border-radius: 20px;
     position: absolute;
     top: 15.5%;
     right: -36%;
 }
 
-.free-workout-number{
+.free-workout-number {
     font-size: 40px;
     font-weight: 700;
 }
 
-.free-workout-text{
-    color: #bab3b3; 
+.free-workout-text {
+    color: #bab3b3;
     margin-top: 7px;
 }
 
 
-.video-tutorial-data-container{
+.video-tutorial-data-container {
     width: 250px;
     display: flex;
     gap: 12px;
     align-items: center;
     background-color: #393939;
-    padding:23px;
+    padding: 23px;
     border-radius: 20px;
     position: absolute;
     bottom: 11%;
     right: 73%;
 }
 
-.rounded-image{
+.rounded-image {
     width: 50px;
     height: 50px;
     background-color: #E6533C;
     border-radius: 99%;
 }
 
-.video-tutorial-number{
+.video-tutorial-number {
     font-size: 30px;
     font-weight: 700;
 }
 
-.video-tutorial-text{
+.video-tutorial-text {
     color: #bab3b3;
     margin-top: 7px;
+}
+
+/* habits section start  */
+
+.habits-all-data-container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.habits-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.habits-sub-title {
+    margin-top: 14px;
+    color: #bab3b3;
+}
+
+.habits-card-data-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+
+.habits-card-image {
+    border-radius: 99%;
+    border: 6px solid #191919;
+}
+
+.habits-card-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0 7px 0;
+}
+
+.habits-card-sub-title {
+    color: #bab3b3;
+    font-size: 14px;
 }
