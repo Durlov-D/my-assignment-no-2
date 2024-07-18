@@ -66,6 +66,7 @@ header {
 
 .hero-title-text {
     font-size: 78px;
+    font-weight: 900;
 }
 
 .hero-title-shape-text {
@@ -194,4 +195,43 @@ header {
 .habits-card-sub-title {
     color: #bab3b3;
     font-size: 14px;
+}
+
+/* run and extra start  */
+.run-and-extra-all-data-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 41px 54px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.run-and-extra-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.run-and-extra-sub-title{
+    margin: 14px 0 34px 0;
+    color: #bab3b3;
+    font-size: 14px;
+}
+
+.join-now-btn{
+    font-size: 18px;
+    background-color: #E6533C;
+    color: #ffffff;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 20px;
+}
+
+.run-and-extra-image{
+    width: 500px;
+    height: 100%;
+    border-radius: 20px;
 }
